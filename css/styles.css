@@ -34,3 +34,15 @@
 .feature_text1 p{
     width: 100%;
 }
+.has-sub:has(.products_menu li.active) {
+    background-color: #e7e7e7;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.responsive_change{
+	float: right;
+}

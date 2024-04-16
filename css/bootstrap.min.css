@@ -2153,6 +2153,22 @@ table td[class*=col-], table th[class*=col-] {
 	margin-left: 0!important;
 	margin-right: 0!important
 }
+.ai-ml-img{
+	min-width: 100% !important;
+	height:200px !important;
+}
+.ai-ml-info{
+	padding:0;
+}
+.ai-ml-info h2{
+	margin-left:0 !important;
+}
+.ai-ml-info p{
+	margin:20px 0 20px 0 !important;
+}
+.responsive_change{
+	float: none !important;
+}
 }
 fieldset, legend {
 	padding: 0;
