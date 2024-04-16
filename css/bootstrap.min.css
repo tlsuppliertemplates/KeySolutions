@@ -6884,7 +6884,8 @@ width: 100%;
 .feature_text img {
 	float: left;
 	width: 10%;
-	margin: 0 3%
+	margin: 0 3%;
+	object-fit: cover;
 }
 .mrgn_align, .mrgn_bottom {
 	margin-bottom: 0!important
