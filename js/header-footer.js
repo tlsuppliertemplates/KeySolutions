@@ -264,11 +264,17 @@ class Header extends HTMLElement {
   
   customElements.define('footer-component', Footer);
 
+ console.log("Mouse flow checking::1");
+function mouseflowRecordings(){
+  console.log("Mouse flow checking::2");
   window._mfq = window._mfq || [];
   (function() {
     var mf = document.createElement("script");
-    console.log("Mouse flow checking");
+    console.log("Mouse flow checking::3");
     mf.type = "text/javascript"; mf.defer = true;
     mf.src = "//cdn.mouseflow.com/projects/699319fe-001b-4be6-a545-7b9a88036b91.js";
     document.getElementsByTagName("head")[0].appendChild(mf);
   })();
+}
+
+mouseflowRecordings();
