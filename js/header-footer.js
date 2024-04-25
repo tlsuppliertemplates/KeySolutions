@@ -117,7 +117,7 @@ class Header extends HTMLElement {
                     <a href="data-infrastructure-services.html">Data Infrastructure Services </a>
                     </li>
                     <li>
-                    <a href="ai-ml-services-new.html">AI/ML Services</a>
+                    <a href="ai-ml-services.html">AI/ML Services</a>
                     </li>
                     <li>
                     <a href="custom-chatbots.html"> Chatbots</a>
@@ -212,7 +212,7 @@ class Header extends HTMLElement {
                 <a href="data-infrastructure-services.html" class="research-compliance">Data Infrastructure Services </a>
             </li>
             <li>
-                <a href="ai-ml-services-new.html" class="research-compliance">AI/ML Services</a>
+                <a href="ai-ml-services.html" class="research-compliance">AI/ML Services</a>
             </li>
             <li>
                 <a href="custom-chatbots.html" class="research-compliance"> Chatbots</a>
