@@ -7265,14 +7265,29 @@ a span.back_option:hover {
 	color: #890000
 }
 .inner_banner_text {
-	margin-top: 150px;
+	/* margin-top: 110px; */
 	padding-bottom: 25px;
 	position: absolute;
 	right: auto;
-	width: 65%
+	width: 65%;
+	top:35%;
+}
+.aiml-new-1 .inner_banner_text{
+	top:30% !important;
+}
+@media (min-width:1366px) and (max-width:1399px) {
+	.aiml-new-1 .inner_banner_text{
+		top:25% !important;
+	}
 }
 .inner_banner_text h1 {
-	margin-left: 8%
+	margin-left: 8%;
+	margin-bottom:16px;
+}
+.inner_banner_text p{
+	margin-left: 8%;
+    color: white;
+    font-size: 18px;
 }
 .inner_banner_text h1 span {
 	color: #fff;
@@ -7281,10 +7296,10 @@ a span.back_option:hover {
 	font-weight: 400;
 	line-height: 46px;
 	padding: 3px 0;
-	-moz-text-shadow: 3px 3px 4px #000;
+	/* -moz-text-shadow: 3px 3px 4px #000;
 	-webkit-text-shadow: 2px 1px 2px #000;
 	-ms-text-shadow: 2px 1px 2px #000;
-	text-shadow: 2px 2px 2px #000
+	text-shadow: 2px 2px 2px #000 */
 }
 .header-text-1 {
 	padding-bottom: 55px!important
@@ -7374,7 +7389,13 @@ a span.back_option:hover {
 
 @media (min-width:1200px) {
 .aboutus_banner img, .contactus_banner img, .demo_banner img {
-	height: 330px!important
+	height: 60vh!important
+}
+.aiml-new img{
+	height: 60vh !important;
+}
+.aiml-new-1 img{
+	height: 88vh !important;
 }
 .meetup, .meetup1 {
 	min-height: 460px!important
