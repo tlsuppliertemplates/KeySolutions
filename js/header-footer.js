@@ -117,13 +117,13 @@ class Header extends HTMLElement {
                     <a href="data-infrastructure-services.html">Data Infrastructure Services </a>
                     </li>
                     <li>
+                    <a href="data-analytics-services.html">Data Analytics Services </a>
+                    </li>
+                    <li>
                     <a href="ai-ml-services.html">AI/ML Services</a>
                     </li>
                     <li>
-                    <a href="custom-chatbots.html"> Chatbots</a>
-                    </li>
-                    <li>
-                    <a href="hosting-services.html">Hosting  </a>
+                    <a href="hosting-services.html">Hosting Services</a>
                     </li>
                 </ul>
                     </li>
@@ -211,14 +211,15 @@ class Header extends HTMLElement {
             <li >
                 <a href="data-infrastructure-services.html" class="research-compliance">Data Infrastructure Services </a>
             </li>
+            <li >
+                <a href="data-analytics-services.html" class="research-compliance">Data Analytics Services </a>
+            </li>
+
             <li>
                 <a href="ai-ml-services.html" class="research-compliance">AI/ML Services</a>
             </li>
             <li>
-                <a href="custom-chatbots.html" class="research-compliance"> Chatbots</a>
-            </li>
-            <li>
-                <a href="hosting-services.html" class="research-compliance">Hosting  </a>
+                <a href="hosting-services.html" class="research-compliance">Hosting Services </a>
             </li>
          </ul>
           </div>
