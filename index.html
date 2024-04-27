@@ -18,17 +18,17 @@
 <script src="js/header-footer.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<link href="css/owl.carousel.css" rel="stylesheet" />
-<link href="css/owl.theme.css" rel="stylesheet" />
-<script src="js/bootstrap-submenu.min.js" defer></script>
-<script src="js/docs.js" defer></script>
-<link rel="stylesheet" href="css/bootstrap-submenu.min.css" />
-<link rel="stylesheet" href="css/docs.min.css" />
-<link href="css/owl.transitions.css" rel="stylesheet" />
+<!--<link href="css/owl.carousel.css" rel="stylesheet" />-->
+<!--<link href="css/owl.theme.css" rel="stylesheet" />-->
+<!--<script src="js/bootstrap-submenu.min.js" defer></script>-->
+<!--<script src="js/docs.js" defer></script>-->
+<!--<link rel="stylesheet" href="css/bootstrap-submenu.min.css" />-->
+<!--<link rel="stylesheet" href="css/docs.min.css" />-->
+<!--<link href="css/owl.transitions.css" rel="stylesheet" />-->
 <link href="https://cdn.mouseflow.com" rel="dns-prefetch">
-<script
+<!-- <script
   type="text/javascript"
-  src="https://app.termly.io/resource-blocker/41f8da5a-b884-483e-9827-48bc2fa64fa4?autoBlock=on"></script>
+  src="https://app.termly.io/resource-blocker/41f8da5a-b884-483e-9827-48bc2fa64fa4?autoBlock=on"></script>-->
 
 
 <script src="js/script.js"></script>
@@ -88,7 +88,7 @@ border-style:none;
 	width:100% !important;
 }
 }
-	.top-section2 {
+	<!--.top-section2 {
 	width: 100%;
 	float: left;
 	background-image: url(../images/sra-event-logo.png);
@@ -100,7 +100,7 @@ border-style:none;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-ms-background-size: cover;*/
-}
+} -->
 </style>
 
 
@@ -373,7 +373,7 @@ border-style:none;
           <div class="research-box1">
             <h2>Professional Services</h2>
             <div class="circle_img4"></div>
-            <p>See how our AI/ML integrated services enhance our product suite driving efficiencies, innovation and advancements in research.</p>
+            <p>See how our Data Analytics and AI/ML integrated services drive efficiencies, innovation and advancements in research.</p>
             <div class="learn_more-3"><a href="professional-services.html">LEARN MORE</a></div>
           </div>
         </div>
@@ -434,6 +434,37 @@ border-style:none;
       </div>
     </div>
   </div>
+<script src="js/owl.carousel.min.js"></script> 
+<script>
+
+    $(document).ready(function() {
+
+      var owl = $("#owl-example-1");
+
+
+
+      owl.owlCarousel({
+
+        navigation : true,
+
+        singleItem : true,
+
+        transitionStyle : "fade",
+
+  autoPlay : 2500,
+
+   navigation:false,
+
+    
+
+      });
+
+	});
+
+	
+
+	  </script> 
+
   <!--  Footer Links Start  -->
   <div class="wrapper footer_links footer_mrgn ">
     <div class="container top_padding">
@@ -511,6 +542,8 @@ border-style:none;
           <span class="addr_text">Fremont, CA
              94538 </span></p>
           </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2 width_align_3">
           <ul class="frt_menu social_icons">
             <li><a href="https://www.facebook.com/key.solutions.usa/" target="_blank"><span class="social_icon1"></span>Find us on Facebook</a></li>
             <li><a href="https://twitter.com/KeyUsaInc" target="_blank"><span class="social_icon2"></span>Find us on Twitter</a></li>
@@ -541,15 +574,48 @@ border-style:none;
     </div>
   </div>
   <!--  Copyright End  -->
-<!-- 	<script>
-		
-  window._mfq = window._mfq || [];
-  (function() {
-    var mf = document.createElement("script");
-    mf.type = "text/javascript"; mf.defer = true;
-    mf.src = "//cdn.mouseflow.com/projects/699319fe-001b-4be6-a545-7b9a88036b91.js";
-    document.getElementsByTagName("head")[0].appendChild(mf);
-  })();
-	</script> -->
+
+<!--<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div class="display-inline">
+<img height="1" width="1" class="border-none" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1068932999/?value=0&amp;guid=ON&amp;script=0" alt="Google Adds"/>
+</div>
+</noscript>-->
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    var image = new Image();
+    image.src = 'images/research-administration-compliance-software.jpg'; // Replace 'images/keyusa-research-capabilities.jpg' with the actual path to your image
+    image.alt = 'research-administration-compliance-software';
+    image.title = 'Research Administration Compliance Software';
+    document.querySelector('.img').appendChild(image);
+	
+	var image = new Image();
+    image.src = 'images/keyusa-research-capabilities.jpg'; // Replace 'images/keyusa-research-capabilities.jpg' with the actual path to your image
+    image.alt = 'keyusa-research-capabilities';
+    image.title = 'keyusa Research Capabilities';
+    document.querySelector('.img1').appendChild(image);
+	
+	var image = new Image();
+    image.src = 'images/saas.jpg'; // Replace 'images/keyusa-resources.jpg' with the actual path to your image
+    image.alt = 'saas';
+    image.title = 'saas';
+    document.querySelector('.img2').appendChild(image);
+	
+	var image = new Image();
+    image.src = 'images/keyusa-resources.jpg'; // Replace 'images/keyusa-resources.jpg' with the actual path to your image
+    image.alt = 'keyusa-resources';
+    image.title = 'keyusa resources';
+    document.querySelector('.img3').appendChild(image);
+  });
+  
+   window.onload = function() {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://app.termly.io/resource-blocker/41f8da5a-b884-483e-9827-48bc2fa64fa4?autoBlock=on';
+    document.getElementsByTagName('head')[0].appendChild(script);
+  };
+</script>
+
   </body>
 </html>
