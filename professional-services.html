@@ -18,7 +18,9 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <link href="css/font-awesome.min.css" rel="stylesheet" />
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+<!--
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+-->
 <script src="js/bootstrap-submenu.min.js" defer></script>
 
 <script type="text/javascript" src="https://app.termly.io/resource-blocker/41f8da5a-b884-483e-9827-48bc2fa64fa4?autoBlock=on"></script>
@@ -232,6 +234,12 @@ border-style:none;
 }
 }
 </style>
+<script>
+  function sendEmail() {
+       var mailtoLink = "mailto:ksi.pcs@keyusa.com";
+       window.location.href = mailtoLink;
+   }
+</script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
   <header-component></header-component>
@@ -243,7 +251,7 @@ border-style:none;
         <div class="aboutus_banner"> <img src="images/professional-services-banner.jpg" alt="Key Solutions Product">
           <div class="inner_banner_text hidden-xs">
             <div class="col-sm-11 col-md-9 col-lg-9 text-left">
-              <h1><span>Transform Your Business with Our AI/ML Services</span></h1>
+              <h1><span>Transform Your Business with Our <br> AI/ML Services</span></h1>
             </div>
           </div>
         </div>
@@ -360,7 +368,8 @@ border-style:none;
         <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
           <div class="contact">
             <div class="contact-title">Contact Key Solutions</div>
-            <h4><a href="mailto:contact@keyusa.com"><i class="fa fa-envelope"></i> Email Key Solutions</a></h4>
+            <!-- <h4><a href="mailto:contact@keyusa.com"><i class="fa fa-envelope"></i> Email Key Solutions</a></h4> -->
+            <h4><a href="#" onclick="sendEmail();"><i class="fa fa-envelope"></i> Email Key Solutions</a></h4>
             <h4><i class="fa fa-phone"></i><a href="tel:+5104564575"> +1-510-456-4575</a></h4>
           </div>
           <div class="contact1">
