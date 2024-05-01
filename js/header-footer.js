@@ -250,7 +250,7 @@ class Header extends HTMLElement {
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="copyright_small"> <span class="text-left">&copy; <em id="copyright-year"></em> Key Solutions, All Rights Reserved</span>
             
-       &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   <font color="grey block"> <span class="footer-center"><a href="https://www.keyusa.com/privacypolicy.html">Privacy Policy</a> | <a href="https://www.keyusa.com/termsandconditions.html">Terms and Conditions</a> | <a href="https://www.keyusa.com/cookiepolicy.html">Cookie Policy</a> | <a href="#" onclick="window.displayPreferenceModal();return false;" id="termly-consent-preferences">Consent Preferences</a></span></font>
+       &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   <font color="grey block"> <span class="footer-center"><a href="privacypolicy.html">Privacy Policy</a> | <a href="termsandconditions.html">Terms and Conditions</a> | <a href="cookiepolicy.html">Cookie Policy</a> | <a href="#" onclick="window.displayPreferenceModal();return false;" id="termly-consent-preferences">Consent Preferences</a></span></font>
             
             
             <span class="footer-right">Key Solutions, Inc.2803 Lakeview Court, Fremont, CA 94538</span> </div>
@@ -265,17 +265,7 @@ class Header extends HTMLElement {
   
   customElements.define('footer-component', Footer);
 
- console.log("Mouse flow checking::1");
-function mouseflowRecordings(){
-  console.log("Mouse flow checking::2");
-  window._mfq = window._mfq || [];
-  (function() {
-    var mf = document.createElement("script");
-    console.log("Mouse flow checking::3");
-    mf.type = "text/javascript"; mf.defer = true;
-    mf.src = "//cdn.mouseflow.com/projects/699319fe-001b-4be6-a545-7b9a88036b91.js";
-    document.getElementsByTagName("head")[0].appendChild(mf);
-  })();
-}
+  // Do Not add any code in this file :
+  //as it is using for  header and footer 
+  // adding any code with errors may lead to miss the visibility of header and footer
 
-mouseflowRecordings();
