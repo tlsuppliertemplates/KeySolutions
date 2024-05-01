@@ -7,16 +7,16 @@ $(document).ready(function() {
 $("#copyright-year").text( (new Date).getFullYear() );
 });
 
-function generateLink() {
-    var domainID =  "keyusa.com";
-    var address = "mailto:ksi.pcs";
-    var charat = "@";
-    var linkAddress =  address + charat + domainID;
+function formString(x,y,a,b) {    
+    var linkAddress =  x + y + a + b;
     return linkAddress;
 }
-
-function contactUs() {
-    var link = generateLink();
+function contactUs() {    
+    var var1 = "mailto:";
+    var var2 = "ksi.pcs";
+    var var3 = "@";
+    var var4 =  "keyusa.com";    
+    var link = formString(var1, var2, var3, var4);
     window.location.href = link;
 }
 
