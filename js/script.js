@@ -6,3 +6,17 @@ var currentYear = (new Date).getFullYear();
 $(document).ready(function() {
 $("#copyright-year").text( (new Date).getFullYear() );
 });
+
+function generateLink() {
+    var domainID =  "keyusa.com";
+    var address = "mailto:ksi.pcs";
+    var charat = "@";
+    var linkAddress =  address + charat + domainID;
+    return linkAddress;
+}
+
+function contactUs() {
+    var link = generateLink();
+    window.location.href = link;
+}
+
