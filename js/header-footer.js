@@ -264,7 +264,13 @@ class Header extends HTMLElement {
   }
   
   customElements.define('footer-component', Footer);
-
+window._mfq = window._mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.defer = true;
+    mf.src = "//cdn.mouseflow.com/projects/699319fe-001b-4be6-a545-7b9a88036b91.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
   // Do Not add any code in this file :
   //as it is using for  header and footer 
   // adding any code with errors may lead to miss the visibility of header and footer
