@@ -253,7 +253,7 @@ class Header extends HTMLElement {
        &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   <font color="grey block"> <span class="footer-center"><a href="privacypolicy.html">Privacy Policy</a> | <a href="termsandconditions.html">Terms and Conditions</a> | <a href="cookiepolicy.html">Cookie Policy</a> | <a href="#" onclick="window.displayPreferenceModal();return false;" id="termly-consent-preferences">Consent Preferences</a></span></font>
             
             
-            <span class="footer-right">Key Solutions, Inc.2803 Lakeview Court, Fremont, CA 94538</span> </div>
+            <span class="footer-right">Key Solutions, Inc. 2803 Lakeview Court, Fremont, CA 94538</span> </div>
           </div>
         </div>
       </div>
